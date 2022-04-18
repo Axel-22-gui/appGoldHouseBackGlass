@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.2" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.8.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+  </ItemGroup>
+
+</Project>
